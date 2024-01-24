@@ -639,7 +639,7 @@ class _TicTacToeScreenState extends State<TicTacToeScreen> {
                 primary: Color.fromARGB(255, 116, 16,
                     138), // Set the background color of the button
               ),
-              child: Text('Close'),
+              child: Text('open'),
             ),
           ],
         );
