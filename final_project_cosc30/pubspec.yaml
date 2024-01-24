@@ -1,0 +1,85 @@
+name: finalproject
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0
+  lottie: ^1.0.0  
+  percent_indicator: ^3.0.0
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.16.0
+  firebase_storage: ^11.6.0
+  fluttertoast: ^8.2.4
+  http: ^0.13.3
+  carousel_slider: ^4.2.1
+  image_picker: ^0.8.4
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.2
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/Cardimage/
+    - images/dice/
+    - images/slot/
+    - images/loadingPage/
+    - images/backgroundimage/
+    - assets/
+    - images/user/
+    - images/games/
+
+
+  
+  fonts:
+     - family: SourceCodePro
+       fonts:
+         - asset: fonts/SourceCodePro-SemiBold.ttf
+     - family: Montez
+       fonts:
+         - asset: fonts/Montez-Regular.ttf
+     - family: Satisfy
+       fonts:
+         - asset: fonts/Satisfy-Regular.ttf
+     - family: BlackHanSans
+       fonts:
+         - asset: fonts/BlackHanSans-Regular.ttf
+     - family: Salsa
+       fonts:
+         - asset: fonts/Salsa-Regular.ttf
+     - family: Genos
+       fonts:
+         - asset: fonts/Genos-Variable.ttf
+     - family: Press
+       fonts:
+         - asset: fonts/Press-Regular.ttf
+     - family: WorkSans
+       fonts:
+         - asset: fonts/WorkSans-Bold.ttf
+     - family: RubikDoodleShadow
+       fonts:
+         - asset: fonts/RubikDoodleShadow-Regular.ttf
+     - family: WorkSans-SemiBold
+       fonts:
+         - asset: fonts/WorkSans-SemiBold.ttf
+ 
+
+
+  
+
